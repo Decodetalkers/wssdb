@@ -96,10 +96,9 @@ impl Handler for Server {
 
     fn on_message(&mut self, msg: Message) -> Result<()> {
         // Broadcast to all connections
-        println!("{}",msg);
         let names = database::data(msg.to_string()).unwrap();
         let mut name :String = String::from("{\"sites\": [ ");
-        for na in names {
+        for na in names.iter().rev() {
             //println!("{}",na);
             //self.response(na);
             name=name+&na+",\n";
