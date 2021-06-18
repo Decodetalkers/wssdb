@@ -1,0 +1,595 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+Abnormal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Abnormal,$/;"	e	enum:CloseCode
+Active	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    Active,$/;"	e	enum:State
+Again	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Again,$/;"	e	enum:CloseCode
+AwaitingClose	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    AwaitingClose,$/;"	e	enum:State
+Away	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Away,$/;"	e	enum:CloseCode
+BASE64	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^static BASE64: &'static [u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/;"	v
+Bad	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Bad,$/;"	e	enum:OpCode
+Binary	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    Binary(Vec<u8>),$/;"	e	enum:Message
+Binary	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Binary,$/;"	e	enum:OpCode
+Builder	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^impl Builder {$/;"	c
+Builder	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^pub struct Builder {$/;"	s
+Cancel	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    Cancel(Timeout),$/;"	e	enum:Signal
+Capacity	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    Capacity,$/;"	e	enum:Kind
+Client	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    Client(url::Url),$/;"	e	enum:Endpoint
+Close	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    Close(CloseCode, Cow<'static, str>),$/;"	e	enum:Signal
+Close	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Close,$/;"	e	enum:OpCode
+CloseCode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^impl From<u16> for CloseCode {$/;"	c
+CloseCode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^impl Into<u16> for CloseCode {$/;"	c
+CloseCode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^pub enum CloseCode {$/;"	g
+Command	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^impl Command {$/;"	c
+Command	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^pub struct Command {$/;"	s
+Compressor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^impl Compressor {$/;"	c
+Compressor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^impl Context for Compressor {$/;"	c
+Compressor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^impl Drop for Compressor {$/;"	c
+Compressor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^pub struct Compressor {$/;"	s
+Conn	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^type Conn<F> = Connection<<F as Factory>::Handler>;$/;"	t
+Connect	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    Connect(url::Url),$/;"	e	enum:Signal
+Connecting	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    Connecting(Cursor<Vec<u8>>, Cursor<Vec<u8>>),$/;"	e	enum:State
+Connection	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^impl<H> Connection<H>$/;"	c
+Connection	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^pub struct Connection<H>$/;"	s
+Context	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^trait Context {$/;"	i
+Continue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Continue,$/;"	e	enum:OpCode
+Custom	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    Custom(Box<dyn StdError + Send + Sync>),$/;"	e	enum:Kind
+Decompressor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^impl Context for Decompressor {$/;"	c
+Decompressor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^impl Decompressor {$/;"	c
+Decompressor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^impl Drop for Decompressor {$/;"	c
+Decompressor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^pub struct Decompressor {$/;"	s
+DeflateBuilder	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^impl DeflateBuilder {$/;"	c
+DeflateBuilder	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^pub struct DeflateBuilder {$/;"	s
+DeflateHandler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^impl<H: Handler> DeflateHandler<H> {$/;"	c
+DeflateHandler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^impl<H: Handler> Handler for DeflateHandler<H> {$/;"	c
+DeflateHandler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^pub struct DeflateHandler<H: Handler> {$/;"	s
+DeflateSettings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^impl Default for DeflateSettings {$/;"	c
+DeflateSettings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^pub struct DeflateSettings {$/;"	s
+Empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Empty,$/;"	e	enum:CloseCode
+Encoding	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    Encoding(Utf8Error),$/;"	e	enum:Kind
+Endpoint	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^pub enum Endpoint {$/;"	g
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Error,$/;"	e	enum:CloseCode
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl From<HandshakeError> for Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl From<SslError> for Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl From<Utf8Error> for Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl From<httparse::Error> for Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl From<io::Error> for Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl From<mio::channel::SendError<Command>> for Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl StdError for Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl fmt::Debug for Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl fmt::Display for Error {$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^impl<B> From<Box<B>> for Error$/;"	c
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^pub struct Error {$/;"	s
+Extension	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Extension,$/;"	e	enum:CloseCode
+F	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^impl<F, H> Factory for F$/;"	c
+F	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^impl<F> Handler for F$/;"	c
+Factory	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^pub trait Factory {$/;"	i
+FinishedClose	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    FinishedClose,$/;"	e	enum:State
+Frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^impl Default for Frame {$/;"	c
+Frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^impl Frame {$/;"	c
+Frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^impl fmt::Display for Frame {$/;"	c
+Frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^pub struct Frame {$/;"	s
+H	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^        impl Handler for H {$/;"	c	function:test::handler
+H	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^        struct H;$/;"	s	function:test::handler
+Handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^            type Handler = M;$/;"	t	implementation:test::connection_lost::X
+Handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^            type Handler = M;$/;"	t	implementation:test::impl_factory::X
+Handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    type Handler = H;$/;"	t
+Handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    type Handler: Handler;$/;"	t	interface:Factory
+Handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^pub trait Handler {$/;"	i
+Handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^impl<F> Handler<F>$/;"	c
+Handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^pub struct Handler<F>$/;"	s
+Handshake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^impl Handshake {$/;"	c
+Handshake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^pub struct Handshake {$/;"	s
+Handshake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    Handshake {$/;"	e	enum:TlsStream
+HandshakeError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^type HandshakeError = SslHandshakeError<mio::tcp::TcpStream>;$/;"	t
+Http	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    Http(httparse::Error),$/;"	e	enum:Kind
+INDEX_HTML	/home/cht/Rust/wssfinal/wss3/src/main.rs	/^static INDEX_HTML: &'static [u8] = br#"$/;"	v
+Inactive	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    Inactive,$/;"	e	enum:State
+Internal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    Internal,$/;"	e	enum:Kind
+Invalid	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Invalid,$/;"	e	enum:CloseCode
+Io	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    Io(io::Error),$/;"	e	enum:Kind
+Kind	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^pub enum Kind {$/;"	g
+Live	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    Live(SslStream<TcpStream>),$/;"	e	enum:TlsStream
+M	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    impl Handler for M {$/;"	c	module:test
+M	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    struct M;$/;"	s	module:test
+M	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    impl Handler for M {$/;"	c	module:test
+M	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    struct M;$/;"	s	module:test
+Message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    Message(message::Message),$/;"	e	enum:Signal
+Message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^impl From<String> for Message {$/;"	c
+Message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^impl From<Vec<u8>> for Message {$/;"	c
+Message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^impl Message {$/;"	c
+Message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^impl fmt::Display for Message {$/;"	c
+Message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^impl<'b> From<&'b [u8]> for Message {$/;"	c
+Message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^impl<'s> From<&'s str> for Message {$/;"	c
+Message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^pub enum Message {$/;"	g
+Normal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Normal,$/;"	e	enum:CloseCode
+OpCode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^impl From<u8> for OpCode {$/;"	c
+OpCode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^impl Into<u8> for OpCode {$/;"	c
+OpCode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^impl OpCode {$/;"	c
+OpCode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^impl fmt::Display for OpCode {$/;"	c
+OpCode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^pub enum OpCode {$/;"	g
+Open	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    Open,$/;"	e	enum:State
+Other	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Other(u16),$/;"	e	enum:CloseCode
+Person	/home/cht/Rust/wssfinal/database/src/lib.rs	/^struct Person {$/;"	s
+Ping	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    Ping(Vec<u8>),$/;"	e	enum:Signal
+Ping	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Ping,$/;"	e	enum:OpCode
+Policy	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Policy,$/;"	e	enum:CloseCode
+Pong	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    Pong(Vec<u8>),$/;"	e	enum:Signal
+Pong	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Pong,$/;"	e	enum:OpCode
+Protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Protocol,$/;"	e	enum:CloseCode
+Protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    Protocol,$/;"	e	enum:Kind
+Queue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    Queue(mio::channel::SendError<Command>),$/;"	e	enum:Kind
+Request	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^impl Request {$/;"	c
+Request	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^impl fmt::Display for Request {$/;"	c
+Request	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^pub struct Request {$/;"	s
+RespondingClose	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    RespondingClose,$/;"	e	enum:State
+Response	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^impl Response {$/;"	c
+Response	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^impl fmt::Display for Response {$/;"	c
+Response	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^pub struct Response {$/;"	s
+Restart	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Restart,$/;"	e	enum:CloseCode
+Result	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^pub type Result<T> = StdResult<T, Error>;$/;"	t
+Sender	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^impl Eq for Sender { }$/;"	c
+Sender	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^impl Hash for Sender {$/;"	c
+Sender	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^impl PartialEq for Sender {$/;"	c
+Sender	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^impl Sender {$/;"	c
+Sender	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^impl fmt::Debug for Sender {$/;"	c
+Sender	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^pub struct Sender {$/;"	s
+Server	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    Server,$/;"	e	enum:Endpoint
+Server	/home/cht/Rust/wssfinal/wss3/src/main.rs	/^impl Handler for Server {$/;"	c
+Settings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^impl Default for Settings {$/;"	c
+Settings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^pub struct Settings {$/;"	s
+Shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    Shutdown,$/;"	e	enum:Signal
+Signal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^pub enum Signal {$/;"	g
+Size	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Size,$/;"	e	enum:CloseCode
+Ssl	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    Ssl(SslError),$/;"	e	enum:Kind
+SslHandshake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    SslHandshake(HandshakeError),$/;"	e	enum:Kind
+State	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^impl State {$/;"	c
+State	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^pub enum State {$/;"	g
+State	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^enum State {$/;"	g
+State	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^impl State {$/;"	c
+Status	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Status,$/;"	e	enum:CloseCode
+Stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^impl Stream {$/;"	c
+Stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^impl io::Read for Stream {$/;"	c
+Stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^impl io::Write for Stream {$/;"	c
+Stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^pub enum Stream {$/;"	g
+T	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^impl<T: io::Read> TryReadBuf for T {}$/;"	c
+T	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^impl<T: io::Write> TryWriteBuf for T {}$/;"	c
+Tcp	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    Tcp(TcpStream),$/;"	e	enum:Stream
+Text	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    Text(String),$/;"	e	enum:Message
+Text	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Text,$/;"	e	enum:OpCode
+Timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    Timeout { delay: u64, token: Token },$/;"	e	enum:Signal
+Timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^pub struct Timeout {$/;"	s
+Tls	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Tls,$/;"	e	enum:CloseCode
+Tls	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    Tls(TlsStream),$/;"	e	enum:Stream
+TlsStream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^impl TlsStream {$/;"	c
+TlsStream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^pub enum TlsStream {$/;"	g
+TryReadBuf	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^pub trait TryReadBuf: io::Read {$/;"	i
+TryWriteBuf	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^pub trait TryWriteBuf: io::Write {$/;"	i
+Unsupported	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    Unsupported,$/;"	e	enum:CloseCode
+Upgrading	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    Upgrading,$/;"	e	enum:TlsStream
+WS_GUID	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^static WS_GUID: &'static str = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11";$/;"	v
+WebSocket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^impl<F> WebSocket<F>$/;"	c
+WebSocket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^pub struct WebSocket<F>$/;"	s
+X	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^        impl Factory for X {$/;"	c	function:test::connection_lost
+X	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^        impl Factory for X {$/;"	c	function:test::impl_factory
+X	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^        struct X;$/;"	s	function:test::connection_lost
+X	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^        struct X;$/;"	s	function:test::impl_factory
+accept	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    pub fn accept(&mut self, poll: &mut Poll, sock: TcpStream) -> Result<()> {$/;"	f
+accept_no_context_takeover	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pub accept_no_context_takeover: bool,$/;"	m	struct:DeflateSettings
+add_extension	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn add_extension(&mut self, ext: &str) {$/;"	P	implementation:Request
+add_extension	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn add_extension(&mut self, ext: &str) {$/;"	P	implementation:Response
+add_protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn add_protocol(&mut self, protocol: &str) {$/;"	P	implementation:Request
+addresses	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    addresses: Vec<SocketAddr>,$/;"	m	struct:Connection
+as_client	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn as_client(&mut self, url: url::Url, addrs: Vec<SocketAddr>) -> Result<()> {$/;"	f
+as_hex	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    fn as_hex(s: &[u8]) {$/;"	f	module:test
+as_server	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn as_server(&mut self) -> Result<()> {$/;"	f
+as_text	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn as_text(&self) -> Result<&str> {$/;"	P	implementation:Message
+binary	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn binary<B>(bin: B) -> Message$/;"	P	implementation:Message
+binary_convert	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    fn binary_convert() {$/;"	f	module:test
+binary_convert_vec	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    fn binary_convert_vec() {$/;"	f	module:test
+bind	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn bind<A>(mut self, addr_spec: A) -> Result<WebSocket<F>>$/;"	f
+body	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    body: Vec<u8>,$/;"	m	struct:Response
+body	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn body(&self) -> &[u8] {$/;"	P	implementation:Response
+broadcast	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn broadcast<M>(&self, msg: M) -> Result<()>$/;"	P	implementation:Sender
+broadcaster	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn broadcaster(&self) -> Sender {$/;"	f
+buffer_frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    fn buffer_frame(&mut self, mut frame: Frame) -> Result<()> {$/;"	f
+buffer_in	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    fn buffer_in(&mut self) -> Result<Option<usize>> {$/;"	f
+build	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pub fn build<H: Handler>(&self, handler: H) -> DeflateHandler<H> {$/;"	P	implementation:DeflateBuilder
+build	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn build<F>(&self, factory: F) -> Result<WebSocket<F>>$/;"	P	implementation:Builder
+build_request	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn build_request(&mut self, url: &url::Url) -> Result<Request> {$/;"	P	implementation:DeflateHandler
+build_request	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn build_request(&mut self, url: &url::Url) -> Result<Request> {$/;"	P	interface:Handler
+cancel	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn cancel(&self, timeout: Timeout) -> Result<()> {$/;"	P	implementation:Sender
+cause	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn cause(&self) -> Option<&dyn StdError> {$/;"	P	implementation:Error
+channel	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    channel: mio::channel::SyncSender<Command>,$/;"	m	struct:Sender
+check_active	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn check_active(&mut self, poll: &mut Poll, active: bool, token: Token) {$/;"	f
+check_buffer_out	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    fn check_buffer_out(&mut self, frame: &Frame) -> Result<()> {$/;"	f
+check_count	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn check_count(&mut self) {$/;"	f
+check_events	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    fn check_events(&mut self) {$/;"	f
+clear_negotiating	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn clear_negotiating(&mut self) -> Result<()> {$/;"	P	implementation:Stream
+clear_negotiating	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn clear_negotiating(&mut self) -> Result<()> {$/;"	P	implementation:TlsStream
+client_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn client_addr(&self) -> Result<Option<&str>> {$/;"	P	implementation:Request
+client_connected	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    fn client_connected(&mut self, ws: Sender) -> Self::Handler {$/;"	P	interface:Factory
+close	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn close(&self, code: CloseCode) -> Result<()> {$/;"	P	implementation:Sender
+close	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn close(code: CloseCode, reason: &str) -> Frame {$/;"	P	implementation:Frame
+close_with_reason	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn close_with_reason<S>(&self, code: CloseCode, reason: S) -> Result<()>$/;"	P	implementation:Sender
+closecode_from_u16	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    fn closecode_from_u16() {$/;"	f	module:test
+closecode_into_u16	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    fn closecode_into_u16() {$/;"	f	module:test
+closure_factory	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    fn closure_factory() {$/;"	f	module:test
+closure_handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn closure_handler() {$/;"	f	module:test
+com	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    com: Compressor,$/;"	m	struct:DeflateHandler
+communication	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod communication;$/;"	n
+compress	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    pub fn compress(&mut self, input: &[u8], output: &mut Vec<u8>) -> Result<()> {$/;"	P	implementation:Compressor
+compress_reset	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    compress_reset: bool,$/;"	m	struct:DeflateHandler
+connect	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn connect(&self, url: url::Url) -> Result<()> {$/;"	P	implementation:Sender
+connect	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    pub fn connect(&mut self, poll: &mut Poll, url: Url) -> Result<()> {$/;"	f
+connect	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn connect(&mut self, url: url::Url) -> Result<&mut WebSocket<F>> {$/;"	f
+connect	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^pub fn connect<U, F, H>(url: U, factory: F) -> Result<()>$/;"	f
+connection	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    connection: Token,$/;"	m	struct:Timeout
+connection	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod connection;$/;"	n
+connection_id	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    connection_id: u32,$/;"	m	struct:Command
+connection_id	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    connection_id: u32,$/;"	m	struct:Sender
+connection_id	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn connection_id(&self) -> u32 {$/;"	P	implementation:Command
+connection_id	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn connection_id(&self) -> u32 {$/;"	P	implementation:Sender
+connection_id	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    connection_id: u32,$/;"	m	struct:Connection
+connection_id	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn connection_id(&self) -> u32 {$/;"	f
+connection_lost	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^            fn connection_lost(&mut self, handler: M) {$/;"	P	implementation:test::connection_lost::X
+connection_lost	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    fn connection_lost(&mut self, _: Self::Handler) {}$/;"	P	interface:Factory
+connection_lost	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    fn connection_lost() {$/;"	f	module:test
+connection_made	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^            fn connection_made(&mut self, _: Sender) -> M {$/;"	P	implementation:test::connection_lost::X
+connection_made	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^            fn connection_made(&mut self, _: Sender) -> M {$/;"	P	implementation:test::impl_factory::X
+connection_made	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    fn connection_made(&mut self, _: Sender) -> Self::Handler;$/;"	P	interface:Factory
+connection_made	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    fn connection_made(&mut self, out: Sender) -> H {$/;"	f
+connections	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    connections: Slab<Conn<F>>,$/;"	m	struct:Handler
+consume	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn consume(self) -> H {$/;"	f
+context	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/mod.rs	/^mod context;$/;"	n
+data	/home/cht/Rust/wssfinal/database/src/lib.rs	/^    data: Option<Vec<u8>>,$/;"	m	struct:Person
+data	/home/cht/Rust/wssfinal/database/src/lib.rs	/^pub fn data(msg:String) -> Result<Vec<String>> {$/;"	f
+dec	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    dec: Decompressor,$/;"	m	struct:DeflateHandler
+decline	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn decline(&mut self, mut res: Response) -> Result<Response> {$/;"	P	implementation:DeflateHandler
+decompress	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    pub fn decompress(&mut self, input: &[u8], output: &mut Vec<u8>) -> Result<()> {$/;"	P	implementation:Decompressor
+decompress_reset	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    decompress_reset: bool,$/;"	m	struct:DeflateHandler
+default	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn default() -> DeflateSettings {$/;"	P	implementation:DeflateSettings
+default	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    fn default() -> Frame {$/;"	P	implementation:Frame
+default	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    fn default() -> Settings {$/;"	P	implementation:Settings
+deflate	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^pub mod deflate;$/;"	n
+description	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn description(&self) -> &str {$/;"	P	implementation:Error
+details	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    pub details: Cow<'static, str>,$/;"	m	struct:Error
+disconnect	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn disconnect(&mut self) {$/;"	f
+display	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    fn display() {$/;"	f	module:test
+display_frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    fn display_frame() {$/;"	f	module:test
+drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    fn drop(&mut self) {$/;"	P	implementation:Compressor
+drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    fn drop(&mut self) {$/;"	P	implementation:Decompressor
+encode_base64	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^fn encode_base64(data: &[u8]) -> String {$/;"	f
+encrypt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn encrypt(&mut self) -> Result<()> {$/;"	f
+encrypt_server	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub encrypt_server: bool,$/;"	m	struct:Settings
+endpoint	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    endpoint: Endpoint,$/;"	m	struct:Connection
+eq	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    fn eq(&self, other: &Sender) -> bool {$/;"	P	implementation:Sender
+error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn error(&mut self, err: Error) {$/;"	f
+event	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    event: Token,$/;"	m	struct:Timeout
+event_loop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn event_loop(&mut self, poll: &mut Poll) -> Result<()> {$/;"	f
+evented	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn evented(&self) -> &TcpStream {$/;"	P	implementation:Stream
+evented	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn evented(&self) -> &TcpStream {$/;"	P	implementation:TlsStream
+events	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    events: Ready,$/;"	m	struct:Connection
+events	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn events(&self) -> Ready {$/;"	f
+extension	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/mod.rs	/^mod extension;$/;"	n
+extensions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn extensions(&self) -> Result<Vec<&str>> {$/;"	P	implementation:Request
+extensions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn extensions(&self) -> Result<Vec<&str>> {$/;"	P	implementation:Response
+factory	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    factory: F,$/;"	m	struct:Handler
+factory	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod factory;$/;"	n
+finished	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    finished: bool,$/;"	m	struct:Frame
+first	/home/cht/Rust/wssfinal/database/src/lib.rs	/^pub fn first() -> Result<Vec<String>> {$/;"	f
+flush	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    fn flush(&mut self) -> io::Result<()> {$/;"	P	implementation:Stream
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:Sender
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:Frame
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:Request
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:Response
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> StdResult<(), fmt::Error> {$/;"	P	implementation:Message
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:OpCode
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:Error
+format	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn format<W>(&mut self, w: &mut W) -> Result<()>$/;"	P	implementation:Frame
+format	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn format<W>(&self, w: &mut W) -> Result<()>$/;"	P	implementation:Request
+format	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn format<W>(&self, w: &mut W) -> Result<()>$/;"	P	implementation:Response
+fragment_size	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fragment_size: usize,$/;"	m	struct:Settings
+fragments	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    fragments: VecDeque<Frame>,$/;"	m	struct:Connection
+fragments	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fragments: Vec<Frame>,$/;"	m	struct:DeflateHandler
+fragments_capacity	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pub fragments_capacity: usize,$/;"	m	struct:DeflateSettings
+fragments_capacity	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fragments_capacity: usize,$/;"	m	struct:Settings
+fragments_grow	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pub fragments_grow: bool,$/;"	m	struct:DeflateSettings
+fragments_grow	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fragments_grow: bool,$/;"	m	struct:Settings
+frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod frame;$/;"	n
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    fn from(data: &'b [u8]) -> Message {$/;"	P	implementation:Message
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    fn from(data: Vec<u8>) -> Message {$/;"	P	implementation:Message
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    fn from(string: &'s str) -> Message {$/;"	P	implementation:Message
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    fn from(string: String) -> Message {$/;"	P	implementation:Message
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    fn from(byte: u8) -> OpCode {$/;"	P	implementation:OpCode
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    fn from(code: u16) -> CloseCode {$/;"	P	implementation:CloseCode
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn from(err: Box<B>) -> Error {$/;"	f
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn from(err: HandshakeError) -> Error {$/;"	P	implementation:Error
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn from(err: SslError) -> Error {$/;"	P	implementation:Error
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn from(err: Utf8Error) -> Error {$/;"	P	implementation:Error
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn from(err: httparse::Error) -> Error {$/;"	P	implementation:Error
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn from(err: io::Error) -> Error {$/;"	P	implementation:Error
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    fn from(err: mio::channel::SendError<Command>) -> Error {$/;"	P	implementation:Error
+from_request	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn from_request(req: &Request) -> Result<Response> {$/;"	P	implementation:Response
+from_url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn from_url(url: &url::Url) -> Result<Request> {$/;"	P	implementation:Request
+generate_key	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^fn generate_key() -> String {$/;"	f
+handle_event	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn handle_event(&mut self, poll: &mut Poll, token: Token, events: Ready) {$/;"	f
+handle_queue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn handle_queue(&mut self, poll: &mut Poll, cmd: Command) {$/;"	f
+handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    handler: H,$/;"	m	struct:Connection
+handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn handler() {$/;"	f	module:test
+handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    handler: io::Handler<F>,$/;"	m	struct:WebSocket
+handler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod handler;$/;"	n
+handshake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod handshake;$/;"	n
+has_rsv1	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn has_rsv1(&self) -> bool {$/;"	P	implementation:Frame
+has_rsv2	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn has_rsv2(&self) -> bool {$/;"	P	implementation:Frame
+has_rsv3	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn has_rsv3(&self) -> bool {$/;"	P	implementation:Frame
+hash	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    fn hash<H: Hasher>(&self, state: &mut H) {$/;"	P	implementation:Sender
+hash_key	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^pub fn hash_key(key: &[u8]) -> String {$/;"	f
+hashed_key	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn hashed_key(&self) -> Result<String> {$/;"	P	implementation:Request
+header	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    fn header(&self, header: &str) -> Option<&Vec<u8>> {$/;"	P	implementation:Response
+header	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn header(&self, header: &str) -> Option<&Vec<u8>> {$/;"	P	implementation:Request
+header_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn header_mut(&mut self, header: &str) -> Option<&mut Vec<u8>> {$/;"	P	implementation:Request
+header_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn header_mut(&mut self, header: &str) -> Option<&mut Vec<u8>> {$/;"	P	implementation:Response
+headers	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    headers: Vec<(String, Vec<u8>)>,$/;"	m	struct:Request
+headers	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    headers: Vec<(String, Vec<u8>)>,$/;"	m	struct:Response
+headers	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn headers(&self) -> &Vec<(String, Vec<u8>)> {$/;"	P	implementation:Request
+headers	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn headers(&self) -> &Vec<(String, Vec<u8>)> {$/;"	P	implementation:Response
+headers_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn headers_mut(&mut self) -> &mut Vec<(String, Vec<u8>)> {$/;"	P	implementation:Request
+headers_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn headers_mut(&mut self) -> &mut Vec<(String, Vec<u8>)> {$/;"	P	implementation:Response
+id	/home/cht/Rust/wssfinal/database/src/lib.rs	/^    id: i32,$/;"	m	struct:Person
+impl_factory	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    fn impl_factory() {$/;"	f	module:test
+in_buffer	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    in_buffer: Cursor<Vec<u8>>,$/;"	m	struct:Connection
+in_buffer_capacity	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub in_buffer_capacity: usize,$/;"	m	struct:Settings
+in_buffer_grow	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub in_buffer_grow: bool,$/;"	m	struct:Settings
+inner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    inner: H,$/;"	m	struct:DeflateHandler
+into	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    fn into(self) -> u16 {$/;"	P	implementation:CloseCode
+into	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    fn into(self) -> u8 {$/;"	P	implementation:OpCode
+into_box	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    pub fn into_box(self) -> Box<dyn StdError> {$/;"	P	implementation:Error
+into_data	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn into_data(self) -> Vec<u8> {$/;"	P	implementation:Frame
+into_data	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn into_data(self) -> Vec<u8> {$/;"	P	implementation:Message
+into_signal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn into_signal(self) -> Signal {$/;"	P	implementation:Command
+into_text	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn into_text(self) -> Result<String> {$/;"	P	implementation:Message
+io	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod io;$/;"	n
+is_active	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn is_active(&self) -> bool {$/;"	P	implementation:State
+is_binary	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn is_binary(&self) -> bool {$/;"	P	implementation:Message
+is_client	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn is_client(&self) -> bool {$/;"	f
+is_client	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn is_client(&self) -> bool {$/;"	f
+is_closing	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn is_closing(&self) -> bool {$/;"	P	implementation:State
+is_connecting	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn is_connecting(&self) -> bool {$/;"	P	implementation:State
+is_control	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn is_control(&self) -> bool {$/;"	P	implementation:Frame
+is_control	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    pub fn is_control(&self) -> bool {$/;"	P	implementation:OpCode
+is_empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn is_empty(&self) -> bool {$/;"	P	implementation:Frame
+is_empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn is_empty(&self) -> bool {$/;"	P	implementation:Message
+is_final	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn is_final(&self) -> bool {$/;"	P	implementation:Frame
+is_masked	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn is_masked(&self) -> bool {$/;"	P	implementation:Frame
+is_negotiating	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn is_negotiating(&self) -> bool {$/;"	P	implementation:Stream
+is_negotiating	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn is_negotiating(&self) -> bool {$/;"	P	implementation:TlsStream
+is_open	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn is_open(&self) -> bool {$/;"	P	implementation:State
+is_server	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn is_server(&self) -> bool {$/;"	f
+is_text	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn is_text(&self) -> bool {$/;"	P	implementation:Message
+is_tls	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn is_tls(&self) -> bool {$/;"	P	implementation:Stream
+key	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn key(&self) -> Result<&Vec<u8>> {$/;"	P	implementation:Request
+key	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn key(&self) -> Result<&Vec<u8>> {$/;"	P	implementation:Response
+key_strict	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub key_strict: bool,$/;"	m	struct:Settings
+kind	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    pub kind: Kind,$/;"	m	struct:Error
+len	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn len(&self) -> usize {$/;"	P	implementation:Frame
+len	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn len(&self) -> usize {$/;"	P	implementation:Message
+listen	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    pub fn listen(&mut self, poll: &mut Poll, addr: &SocketAddr) -> Result<&mut Handler<F>> {$/;"	f
+listen	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn listen<A>(self, addr_spec: A) -> Result<WebSocket<F>>$/;"	f
+listen	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^pub fn listen<A, F, H>(addr: A, factory: F) -> Result<()>$/;"	f
+listener	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    listener: Option<TcpListener>,$/;"	m	struct:Handler
+local_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub local_addr: Option<SocketAddr>,$/;"	m	struct:Handshake
+local_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    pub fn local_addr(&self) -> ::std::io::Result<SocketAddr> {$/;"	f
+local_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn local_addr(&self) -> ::std::io::Result<SocketAddr> {$/;"	f
+local_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn local_addr(&self) -> io::Result<SocketAddr> {$/;"	P	implementation:Stream
+local_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn local_addr(&self) -> io::Result<SocketAddr> {$/;"	P	implementation:TlsStream
+main	/home/cht/Rust/wssfinal/wss3/src/main.rs	/^fn main() {$/;"	f
+map_non_block	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^fn map_non_block<T>(res: io::Result<T>) -> io::Result<Option<T>> {$/;"	f
+mask	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    mask: Option<[u8; 4]>,$/;"	m	struct:Frame
+mask	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn mask(&self) -> Option<&[u8; 4]> {$/;"	P	implementation:Frame
+masking_strict	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub masking_strict: bool,$/;"	m	struct:Settings
+max_connections	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub max_connections: usize,$/;"	m	struct:Settings
+max_fragment_size	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub max_fragment_size: usize,$/;"	m	struct:Settings
+max_window_bits	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pub max_window_bits: u8,$/;"	m	struct:DeflateSettings
+message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn message(data: Vec<u8>, code: OpCode, finished: bool) -> Frame {$/;"	P	implementation:Frame
+message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod message;$/;"	n
+method	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    method: String,$/;"	m	struct:Request
+method	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn method(&self) -> &str {$/;"	P	implementation:Request
+method_strict	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub method_strict: bool,$/;"	m	struct:Settings
+name	/home/cht/Rust/wssfinal/database/src/lib.rs	/^    name: String,$/;"	m	struct:Person
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn new($/;"	P	implementation:Sender
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn new($/;"	f
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    pub fn new(window_bits: i8) -> Compressor {$/;"	P	implementation:Compressor
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    pub fn new(window_bits: i8) -> Decompressor {$/;"	P	implementation:Decompressor
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pub fn new() -> DeflateBuilder {$/;"	P	implementation:DeflateBuilder
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pub fn new(handler: H) -> DeflateHandler<H> {$/;"	P	implementation:DeflateHandler
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn new<R>(status: u16, reason: R, body: Vec<u8>) -> Response$/;"	P	implementation:Response
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    pub fn new(factory: F, settings: Settings) -> Handler<F> {$/;"	f
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn new() -> Builder {$/;"	P	implementation:Builder
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn new(factory: F) -> Result<WebSocket<F>> {$/;"	f
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/result.rs	/^    pub fn new<I>(kind: Kind, details: I) -> Error$/;"	P	implementation:Error
+new_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn new_timeout(&mut self, event: Token, timeout: Timeout) -> Result<()> {$/;"	f
+next_connection_id	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    next_connection_id: u32,$/;"	m	struct:Handler
+on_close	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_close(&mut self, code: CloseCode, reason: &str) {$/;"	P	implementation:DeflateHandler
+on_close	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^            fn on_close(&mut self, code: CloseCode, _: &str) {$/;"	P	implementation:test::handler::H
+on_close	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_close(&mut self, code: CloseCode, reason: &str) {$/;"	P	interface:Handler
+on_error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_error(&mut self, err: Error) {$/;"	P	implementation:DeflateHandler
+on_error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_error(&mut self, err: Error) {$/;"	P	interface:Handler
+on_frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_frame(&mut self, mut frame: Frame) -> Result<Option<Frame>> {$/;"	P	implementation:DeflateHandler
+on_frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^        fn on_frame(&mut self, f: frame::Frame) -> Result<Option<frame::Frame>> {$/;"	P	implementation:test::M
+on_frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^        fn on_frame(&mut self, f: frame::Frame) -> Result<Option<frame::Frame>> {$/;"	P	implementation:test::M
+on_frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_frame(&mut self, frame: Frame) -> Result<Option<Frame>> {$/;"	P	interface:Handler
+on_message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_message(&mut self, msg: Message) -> Result<()> {$/;"	P	implementation:DeflateHandler
+on_message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^        fn on_message(&mut self, _: message::Message) -> Result<()> {$/;"	P	implementation:test::M
+on_message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^            fn on_message(&mut self, msg: message::Message) -> Result<()> {$/;"	P	implementation:test::handler::H
+on_message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^        fn on_message(&mut self, _: message::Message) -> Result<()> {$/;"	P	implementation:test::M
+on_message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_message(&mut self, msg: Message) -> Result<()> {$/;"	P	interface:Handler
+on_message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_message(&mut self, msg: Message) -> Result<()> {$/;"	f
+on_message	/home/cht/Rust/wssfinal/wss3/src/main.rs	/^    fn on_message(&mut self, msg: Message) -> Result<()> {$/;"	P	implementation:Server
+on_new_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_new_timeout(&mut self, tok: Token, timeout: Timeout) -> Result<()> {$/;"	P	implementation:DeflateHandler
+on_new_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_new_timeout(&mut self, _: Token, _: Timeout) -> Result<()> {$/;"	P	interface:Handler
+on_open	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_open(&mut self, shake: Handshake) -> Result<()> {$/;"	P	implementation:DeflateHandler
+on_open	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^            fn on_open(&mut self, shake: Handshake) -> Result<()> {$/;"	P	implementation:test::handler::H
+on_open	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_open(&mut self, shake: Handshake) -> Result<()> {$/;"	P	interface:Handler
+on_request	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_request(&mut self, req: &Request) -> Result<Response> {$/;"	P	implementation:DeflateHandler
+on_request	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_request(&mut self, req: &Request) -> Result<Response> {$/;"	P	interface:Handler
+on_request	/home/cht/Rust/wssfinal/wss3/src/main.rs	/^    fn on_request(&mut self, req: &Request) -> Result<(Response)> {$/;"	P	implementation:Server
+on_response	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_response(&mut self, res: &Response) -> Result<()> {$/;"	P	implementation:DeflateHandler
+on_response	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_response(&mut self, res: &Response) -> Result<()> {$/;"	P	interface:Handler
+on_send_frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_send_frame(&mut self, frame: Frame) -> Result<Option<Frame>> {$/;"	P	implementation:DeflateHandler
+on_send_frame	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_send_frame(&mut self, frame: Frame) -> Result<Option<Frame>> {$/;"	P	interface:Handler
+on_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_shutdown(&mut self) {$/;"	P	implementation:DeflateHandler
+on_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    fn on_shutdown(&mut self) {$/;"	P	interface:Factory
+on_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_shutdown(&mut self) {$/;"	P	interface:Handler
+on_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn on_timeout(&mut self, event: Token) -> Result<()> {$/;"	P	implementation:DeflateHandler
+on_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn on_timeout(&mut self, event: Token) -> Result<()> {$/;"	P	interface:Handler
+opcode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    opcode: OpCode,$/;"	m	struct:Frame
+opcode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn opcode(&self) -> OpCode {$/;"	P	implementation:Frame
+opcode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn opcode(&self) -> OpCode {$/;"	P	implementation:Message
+opcode_from_u8	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    fn opcode_from_u8() {$/;"	f	module:test
+opcode_into_u8	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^    fn opcode_into_u8() {$/;"	f	module:test
+origin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn origin(&self) -> Result<Option<&str>> {$/;"	P	implementation:Request
+out_buffer	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    out_buffer: Cursor<Vec<u8>>,$/;"	m	struct:Connection
+out_buffer_capacity	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub out_buffer_capacity: usize,$/;"	m	struct:Settings
+out_buffer_grow	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub out_buffer_grow: bool,$/;"	m	struct:Settings
+panic_on_capacity	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub panic_on_capacity: bool,$/;"	m	struct:Settings
+panic_on_encoding	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub panic_on_encoding: bool,$/;"	m	struct:Settings
+panic_on_internal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub panic_on_internal: bool,$/;"	m	struct:Settings
+panic_on_io	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub panic_on_io: bool,$/;"	m	struct:Settings
+panic_on_new_connection	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub panic_on_new_connection: bool,$/;"	m	struct:Settings
+panic_on_protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub panic_on_protocol: bool,$/;"	m	struct:Settings
+panic_on_queue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub panic_on_queue: bool,$/;"	m	struct:Settings
+panic_on_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub panic_on_shutdown: bool,$/;"	m	struct:Settings
+panic_on_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub panic_on_timeout: bool,$/;"	m	struct:Settings
+parse	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn parse(cursor: &mut Cursor<Vec<u8>>, max_payload_length: u64) -> Result<Option<Frame>>/;"	P	implementation:Frame
+parse	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn parse(buf: &[u8]) -> Result<Option<Request>> {$/;"	P	implementation:Request
+parse	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn parse(buf: &[u8]) -> Result<Option<Response>> {$/;"	P	implementation:Response
+pass	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pass: bool,$/;"	m	struct:DeflateHandler
+path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    path: String,$/;"	m	struct:Request
+payload	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    payload: Vec<u8>,$/;"	m	struct:Frame
+payload	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn payload(&self) -> &Vec<u8> {$/;"	P	implementation:Frame
+payload_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn payload_mut(&mut self) -> &mut Vec<u8> {$/;"	P	implementation:Frame
+peer_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    fn peer_addr(&self) -> String {$/;"	f
+peer_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub peer_addr: Option<SocketAddr>,$/;"	m	struct:Handshake
+peer_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn peer_addr(&self) -> io::Result<SocketAddr> {$/;"	P	implementation:Stream
+peer_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn peer_addr(&self) -> io::Result<SocketAddr> {$/;"	P	implementation:TlsStream
+ping	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn ping(&self, data: Vec<u8>) -> Result<()> {$/;"	P	implementation:Sender
+ping	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn ping(data: Vec<u8>) -> Frame {$/;"	P	implementation:Frame
+poll	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    poll: Poll,$/;"	m	struct:WebSocket
+pong	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn pong(&self, data: Vec<u8>) -> Result<()> {$/;"	P	implementation:Sender
+pong	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn pong(data: Vec<u8>) -> Frame {$/;"	P	implementation:Frame
+protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn protocol(&self) -> Result<Option<&str>> {$/;"	P	implementation:Response
+protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod protocol;$/;"	n
+protocols	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn protocols(&self) -> Result<Vec<&str>> {$/;"	P	implementation:Request
+queue_rx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    queue_rx: mio::channel::Receiver<Command>,$/;"	m	struct:Handler
+queue_size	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub queue_size: usize,$/;"	m	struct:Settings
+queue_tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    queue_tx: mio::channel::SyncSender<Command>,$/;"	m	struct:Handler
+read	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn read(&mut self) -> Result<()> {$/;"	f
+read	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    fn read(&mut self, buf: &mut [u8]) -> io::Result<usize> {$/;"	P	implementation:Stream
+read_frames	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    fn read_frames(&mut self) -> Result<()> {$/;"	f
+read_handshake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    fn read_handshake(&mut self) -> Result<()> {$/;"	f
+reason	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn reason(&self) -> &str {$/;"	P	implementation:Response
+reason	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    reason: String,$/;"	m	struct:Response
+remote_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    fn remote_addr() {$/;"	f	module:test
+remote_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn remote_addr(&self) -> Result<Option<String>> {$/;"	P	implementation:Handshake
+remote_addr_forwarded	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    fn remote_addr_forwarded() {$/;"	f	module:test
+remote_addr_x_forwarded_for	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    fn remote_addr_x_forwarded_for() {$/;"	f	module:test
+remove_extension	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn remove_extension(&mut self, ext: &str) {$/;"	P	implementation:Request
+remove_extension	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn remove_extension(&mut self, ext: &str) {$/;"	P	implementation:Response
+remove_mask	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn remove_mask(&mut self) -> &mut Frame {$/;"	P	implementation:Frame
+remove_protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn remove_protocol(&mut self, protocol: &str) {$/;"	P	implementation:Request
+request	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub request: Request,$/;"	m	struct:Handshake
+request_no_context_takeover	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pub request_no_context_takeover: bool,$/;"	m	struct:DeflateSettings
+reset	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn reset(&mut self) -> Result<()> {$/;"	f
+reset	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    fn reset() {$/;"	f	module:test
+reset	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    pub fn reset(&mut self) -> Result<()> {$/;"	P	implementation:Compressor
+reset	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    pub fn reset(&mut self) -> Result<()> {$/;"	P	implementation:Decompressor
+resource	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn resource(&self) -> &str {$/;"	P	implementation:Request
+response	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub response: Response,$/;"	m	struct:Handshake
+result	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod result;$/;"	n
+round_trip	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    fn round_trip() {$/;"	f	module:test
+rsv1	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    rsv1: bool,$/;"	m	struct:Frame
+rsv2	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    rsv2: bool,$/;"	m	struct:Frame
+rsv3	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    rsv3: bool,$/;"	m	struct:Frame
+run	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    pub fn run(&mut self, poll: &mut Poll) -> Result<()> {$/;"	f
+run	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn run(mut self) -> Result<WebSocket<F>> {$/;"	f
+schedule	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn schedule(&self, poll: &mut Poll, conn: &Conn<F>) -> Result<()> {$/;"	f
+send	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn send<M>(&self, msg: M) -> Result<()>$/;"	P	implementation:Sender
+send_close	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn send_close<R>(&mut self, code: CloseCode, reason: R) -> Result<()>$/;"	f
+send_message	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn send_message(&mut self, msg: Message) -> Result<()> {$/;"	f
+send_ping	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn send_ping(&mut self, data: Vec<u8>) -> Result<()> {$/;"	f
+send_pong	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn send_pong(&mut self, data: Vec<u8>) -> Result<()> {$/;"	f
+sender	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    pub fn sender(&self) -> Sender {$/;"	f
+server_connected	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^    fn server_connected(&mut self, ws: Sender) -> Self::Handler {$/;"	P	interface:Factory
+set_final	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn set_final(&mut self, is_final: bool) -> &mut Frame {$/;"	P	implementation:Frame
+set_mask	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn set_mask(&mut self) -> &mut Frame {$/;"	P	implementation:Frame
+set_opcode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn set_opcode(&mut self, opcode: OpCode) -> &mut Frame {$/;"	P	implementation:Frame
+set_protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn set_protocol(&mut self, protocol: &str) {$/;"	P	implementation:Response
+set_reason	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn set_reason<R>(&mut self, reason: R)$/;"	P	implementation:Response
+set_rsv1	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn set_rsv1(&mut self, has_rsv1: bool) -> &mut Frame {$/;"	P	implementation:Frame
+set_rsv2	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn set_rsv2(&mut self, has_rsv2: bool) -> &mut Frame {$/;"	P	implementation:Frame
+set_rsv3	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^    pub fn set_rsv3(&mut self, has_rsv3: bool) -> &mut Frame {$/;"	P	implementation:Frame
+set_status	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn set_status(&mut self, status: u16) {$/;"	P	implementation:Response
+settings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    settings: Settings,$/;"	m	struct:Connection
+settings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    settings: DeflateSettings,$/;"	m	struct:DeflateBuilder
+settings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    settings: DeflateSettings,$/;"	m	struct:DeflateHandler
+settings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    settings: Settings,$/;"	m	struct:Handler
+settings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    settings: Settings,$/;"	m	struct:Builder
+shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn shutdown(&self) -> Result<()> {$/;"	P	implementation:Sender
+shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn shutdown(&mut self) {$/;"	f
+shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn shutdown(&mut self) {$/;"	f
+shutdown_on_interrupt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub shutdown_on_interrupt: bool,$/;"	m	struct:Settings
+signal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    signal: Signal,$/;"	m	struct:Command
+socket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn socket(&self) -> &TcpStream {$/;"	f
+socket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    socket: Stream,$/;"	m	struct:Connection
+state	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    state: State,$/;"	m	struct:Connection
+state	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    state: State,$/;"	m	struct:Handler
+status	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn status(&self) -> u16 {$/;"	P	implementation:Response
+status	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    status: u16,$/;"	m	struct:Response
+str	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^const ZLIB_VERSION: &'static str = "1.2.8\\0";$/;"	v
+str	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^static WS_GUID: &'static str = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11";$/;"	v
+stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    fn stream(&mut self) -> &mut ffi::z_stream {$/;"	P	implementation:Compressor
+stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    fn stream(&mut self) -> &mut ffi::z_stream {$/;"	P	implementation:Decompressor
+stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    fn stream(&mut self) -> &mut ffi::z_stream;$/;"	P	interface:Context
+stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    stream: Box<ffi::z_stream>,$/;"	m	struct:Compressor
+stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    stream: Box<ffi::z_stream>,$/;"	m	struct:Decompressor
+stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^mod stream;$/;"	n
+stream_apply	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^    fn stream_apply<F>(&mut self, input: &[u8], output: &mut Vec<u8>, each: F) -> Result<()>$/;"	P	interface:Context
+tcp	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn tcp(stream: TcpStream) -> Stream {$/;"	P	implementation:Stream
+tcp_nodelay	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub tcp_nodelay: bool,$/;"	m	struct:Settings
+test	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/context.rs	/^mod test {$/;"	n
+test	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/factory.rs	/^mod test {$/;"	n
+test	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/frame.rs	/^mod test {$/;"	n
+test	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^mod test {$/;"	n
+test	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^mod test {$/;"	n
+test	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^mod test {$/;"	n
+test	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^mod test {$/;"	n
+test	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/protocol.rs	/^mod test {$/;"	n
+test_url_to_addrs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    fn test_url_to_addrs() {$/;"	f	module:test
+text	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    pub fn text<S>(string: S) -> Message$/;"	P	implementation:Message
+text_convert	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/message.rs	/^    fn text_convert() {$/;"	f	module:test
+timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn timeout(&self, ms: u64, token: Token) -> Result<()> {$/;"	P	implementation:Sender
+timeout_triggered	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn timeout_triggered(&mut self, event: Token) -> Result<()> {$/;"	f
+timer	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^    timer: mio_extras::timer::Timer<Timeout>,$/;"	m	struct:Handler
+tls	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn tls(stream: MidHandshakeSslStream<TcpStream>) -> Stream {$/;"	P	implementation:Stream
+tls_live	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    pub fn tls_live(stream: SslStream<TcpStream>) -> Stream {$/;"	P	implementation:Stream
+token	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn token(&self) -> Token {$/;"	P	implementation:Command
+token	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    pub fn token(&self) -> Token {$/;"	P	implementation:Sender
+token	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    token: Token,$/;"	m	struct:Command
+token	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/communication.rs	/^    token: Token,$/;"	m	struct:Sender
+token	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn token(&self) -> Token {$/;"	f
+token	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    token: Token,$/;"	m	struct:Connection
+try_read_buf	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    fn try_read_buf<B: BufMut>(&mut self, buf: &mut B) -> io::Result<Option<usize>>$/;"	P	interface:TryReadBuf
+try_write_buf	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    fn try_write_buf<B: Buf>(&mut self, buf: &mut B) -> io::Result<Option<usize>>$/;"	P	interface:TryWriteBuf
+upgrade_ssl_client	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn upgrade_ssl_client($/;"	P	implementation:DeflateHandler
+upgrade_ssl_client	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn upgrade_ssl_client($/;"	P	interface:Handler
+upgrade_ssl_server	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    fn upgrade_ssl_server(&mut self, stream: TcpStream) -> Result<SslStream<TcpStream>> {$/;"	P	implementation:DeflateHandler
+upgrade_ssl_server	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handler.rs	/^    fn upgrade_ssl_server(&mut self, _: TcpStream) -> Result<SslStream<TcpStream>> {$/;"	P	interface:Handler
+url_to_addrs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/io.rs	/^fn url_to_addrs(url: &Url) -> Result<Vec<SocketAddr>> {$/;"	f
+util	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^pub mod util;$/;"	n
+version	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/handshake.rs	/^    pub fn version(&self) -> Result<&str> {$/;"	P	implementation:Request
+with_settings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/deflate/extension.rs	/^    pub fn with_settings(&mut self, settings: DeflateSettings) -> &mut DeflateBuilder {$/;"	P	implementation:DeflateBuilder
+with_settings	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/lib.rs	/^    pub fn with_settings(&mut self, settings: Settings) -> &mut Builder {$/;"	P	implementation:Builder
+write	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    pub fn write(&mut self) -> Result<()> {$/;"	f
+write	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/stream.rs	/^    fn write(&mut self, buf: &[u8]) -> io::Result<usize> {$/;"	P	implementation:Stream
+write_handshake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/ws-0.9.1/src/connection.rs	/^    fn write_handshake(&mut self) -> Result<()> {$/;"	f
