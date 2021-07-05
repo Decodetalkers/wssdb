@@ -40,14 +40,14 @@ pub fn first() -> Result<Vec<String>> {
 pub fn data(msg:String) -> Result<Vec<String>> {
     let conn = Connection::open("./database.db")?;
 
-    //conn.execute(
-    //    "CREATE TABLE person (
-    //              id              INTEGER PRIMARY KEY,
-    //              name            TEXT NOT NULL,
-    //              data            BLOB
-    //              )",
-    //    [],
-    //)?;
+    conn.execute(
+        "CREATE TABLE IF NOT EXISTS person (
+                  id              INTEGER PRIMARY KEY,
+                  name            TEXT NOT NULL,
+                  data            BLOB
+                  )",
+        [],
+    )?;
     let me = Person {
         id: 0,
         name: msg,
